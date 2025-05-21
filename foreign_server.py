@@ -2,7 +2,7 @@ import socket
 import json
 import os
 
-HOST = "100.88.231.34"  # Tailscale IP of this machine here
+HOST = "192.168.0.11"  # Tailscale IP of this machine here
 PORT_SHARE = 9001
 SAVE_FILE = "received_shares.json"
 
