@@ -2,9 +2,10 @@ import socket
 import json
 import os
 
-HOST = "100.88.231.34"  # Tailscale IP of this machine
+HOST = "0.0.0.0"  # Tailscale IP of this machine here
 PORT_SHARE = 9001
 SAVE_FILE = "received_shares.json"
+
 
 def start_foreign_server():
     print(f"[+] Starting Foreign Server 1 at {HOST}:{PORT_SHARE}")
