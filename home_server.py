@@ -2,7 +2,11 @@ import json
 import random
 import socket
 import time
+<<<<<<< Updated upstream
 RELAY_IP = "192.168.0.10"  # Replace with relay's Tailscale IP
+=======
+RELAY_IP = "192.158.0.10"  # Replace with relay's Tailscale IP
+>>>>>>> Stashed changes
 RELAY_PORT = 8000
 SHARE_FILES = ["share_1.json", "share_2.json", "share_3.json"]
 USERS_FILE = "users.json"
