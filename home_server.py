@@ -3,7 +3,11 @@ import random
 import socket
 import time
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 RELAY_IP = "192.168.0.10"  # Replace with relay's Tailscale IP
+=======
+RELAY_IP = "192.158.0.10"  # Replace with relay's Tailscale IP
+>>>>>>> Stashed changes
 =======
 RELAY_IP = "192.158.0.10"  # Replace with relay's Tailscale IP
 >>>>>>> Stashed changes
