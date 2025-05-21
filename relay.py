@@ -1,6 +1,6 @@
 import socket
 import json
-
+import time
 # ---------------- FOREIGN_SERVERS ----------------
 FOREIGN_SERVERS = {
     1: "100.88.231.34",
@@ -56,6 +56,7 @@ def start_relay_server():
                     print(f"[!] JSON error: {je}")
                 except Exception as e:
                     print(f"[!] Unexpected error: {e}")
+            time.sleep(8)
 
 # --------------- Run ----------------
 if __name__ == "__main__":
